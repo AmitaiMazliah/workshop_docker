@@ -1,0 +1,29 @@
+{
+    "name": "Infra Ops Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.azure-dev",
+                "ms-azuretools.vscode-docker",
+                "github.copilot-chat",
+                "streetsidesoftware.code-spell-checker",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "forwardPorts": [
+        7071,
+        7072
+    ],
+    "remoteUser": "vscode",
+    "hostRequirements": {
+        "memory": "8gb"
+    }
+}
