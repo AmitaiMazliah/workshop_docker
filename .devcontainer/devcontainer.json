@@ -14,7 +14,8 @@
                 "ms-azuretools.vscode-docker",
                 "github.copilot-chat",
                 "streetsidesoftware.code-spell-checker",
-                "eamodio.gitlens"
+                "eamodio.gitlens",
+                "trybick.terminal-zoom"
             ]
         }
     },
